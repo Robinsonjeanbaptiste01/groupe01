@@ -1,0 +1,42 @@
+
+#imagedefont{
+    background-image: url(image/orangerouge.jpg);
+    opacity:0,2;
+
+    
+}
+ b{
+    text-decoration:solid;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+footer{
+    color:rgb(3, 3, 14);
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    max-width: 900px;
+}
+input,textarea,button{
+    border-color:rgb(204, 163, 27) ;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    overflow: hidden;
+}
+select{
+    border-radius: 8px;
+
+}
+
+
+
+

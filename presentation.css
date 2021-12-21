@@ -1,0 +1,87 @@
+.topbar{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    /*background-color:#4026b317;*/
+    padding: 30px 90px;
+    z-index: 3;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, .5);
+}
+.topbar nav {
+    top:20px;
+    left: 50%;
+    right: 0;
+}
+
+.topbar nav a {
+    color: rgb(24, 21, 21);
+    text-decoration: none;
+    font-weight: 200;
+    padding: 0 20px;
+    line-height: 23px;
+    
+}
+#imagePrincipale {
+    padding-top: 90px;
+    background: url(image/koupedwet.jpg.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+}
+  nav {
+    overflow: hidden;
+    background-color: rgb(255, 174, 0);
+    position: fixed;
+    width: 200%;
+    opacity: 0.9;
+    box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+    margin-left: 0%;
+  }
+  h2{
+      font-family: Edwardian Script ITC;
+      text-align: center;
+      font-style: normal;
+      text-decoration:none;
+      text-shadow: 1px;
+      color: white;
+      text-shadow: 1px 3px 2px rgb(197, 117, 12);;
+  }
+  h1{
+color:white;
+text-align:center;
+font-family: Baskerville Old Face;
+text-shadow: 1px 3px 2px rgb(197, 117, 12);
+text-size-adjust: 120px;
+  }
+  img{
+      position: fixed;
+  }
+footer{
+  background-image: url(image/orange.jpg);
+  opacity: 0,5;
+  color: black;
+}
+footer h1{
+  color: #000;
+}
+#icons{
+  width: 50%;
+  text-align: right;
+}
+
+#icons a{
+  display: inline-block;
+  padding: 0 15px;
+  font-size: 1.3em;
+  color: #FFFAE1;
+}
+
+#icons a:hover{
+  transform: scale(1.5);
+  transition: 0.1s;
+}
